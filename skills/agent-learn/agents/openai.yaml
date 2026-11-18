@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Learn"
+  short_description: "跨 Agent 收尾与会话学习：把已接受的长期结果写回共享正本"
+  default_prompt: "Use $agent-learn to capture this session's accepted durable results, corrections, or root-cause fixes into the narrowest shared Markdown source of truth, read them back, and exit silently when nothing needs keeping."
